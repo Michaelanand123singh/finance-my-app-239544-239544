@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance My App - Financial Management for College Students</title>
+    <meta name="description" content="Take control of your finances with Finance My App! Budgeting, tracking, and financial education designed for college students.">
+    <meta property="og:title" content="Finance My App - Financial Management for College Students">
+    <meta property="og:description" content="Take control of your finances with Finance My App! Budgeting, tracking, and financial education designed for college students.">
+    <meta property="og:image" content="URL_TO_YOUR_SOCIAL_SHARE_IMAGE">
+    <meta property="og:url" content="URL_TO_YOUR_WEBSITE">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#6366f1', // Indigo-500
+                        secondary: '#a855f7', // Purple-500
+                        accent: '#f97316', // Orange-500
+                        neutral: '#4b5563', // Gray-600
+                        success: '#16a34a', // Green-500
+                        warning: '#facc15', // Yellow-400
+                        error: '#dc2626', // Red-500
+                    }
+                }
+            }
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Finance My App",
+            "url": "URL_TO_YOUR_WEBSITE",
+            "logo": "URL_TO_YOUR_LOGO"
+        }
+    </script>
+</head>
+
+<body class="bg-gray-50 font-sans antialiased">
+
+    <header role="banner" aria-label="Navigation">
+        <nav class="bg-white shadow-lg sticky top-0 z-50">
+            <div class="max-w-6xl mx-auto px-4">
+                <div class="flex justify-between items-center py-4">
+                    <div class="flex items-center">
+                        <span class="text-xl font-bold text-primary">Finance My App</span>
+                    </div>
+                    <div class="hidden md:flex space-x-8">
+                        <a href="#features" class="text-gray-700 hover:text-primary transition">Features</a>
+                        <a href="#about" class="text-gray-700 hover:text-primary transition">About</a>
+                        <a href="#contact" class="text-gray-700 hover:text-primary transition">Contact</a>
+                    </div>
+                    <button class="bg-primary text-white px-6 py-2 rounded-lg hover:bg-indigo-700 transition">Get Started</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main role="main">
+
+        <!-- Hero Section -->
+        <section id="hero" class="relative py-24 md:py-32 lg:py-48 bg-cover bg-center"
+            style="background-image: url('https://images.unsplash.com/photo-1614787296891-d1b2b1aced36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTYzMTZ8MHwxfHNlYXJjaHwxfHxGaW5hbmNlJTIwbXklMjBhcHB8ZW58MXwwfHx8MTc1NjIzOTEyMHww&ixlib=rb-4.1.0&q=80&w=1080');">
+            <div class="absolute inset-0 bg-black opacity-50"></div>
+            <div class="container mx-auto px-4 relative z-10 text-white">
+                <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">Manage Your Money Like a Pro</h1>
+                <p class="text-lg sm:text-xl mb-8">Finance My App is the ultimate financial management tool for college students.
+                    Track expenses, create budgets, and achieve your financial goals.</p>
+                <button class="bg-accent text-white px-8 py-3 rounded-lg hover:bg-orange-600 transition">Start Saving Today</button>
+                <p class="text-sm mt-2">Image by <a href="https://unsplash.com/@vadimartyukhin?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" class="underline" target="_blank">Vadim Artyukhin</a> on <a href="https://unsplash.com/" class="underline" target="_blank">Unsplash</a>
+                </p>
+            </div>
+        </section>
+
+        <!-- Social Proof Badges -->
+        <section class="bg-gray-100 py-8">
+            <div class="container mx-auto px-4 flex flex-wrap justify-center items-center gap-4">
+                <img src="placeholder-badge-1.png" alt="Badge 1" class="h-12 grayscale opacity-75">
+                <img src="placeholder-badge-2.png" alt="Badge 2" class="h-12 grayscale opacity-75">
+                <img src="placeholder-badge-3.png" alt="Badge 3" class="h-12 grayscale opacity-75">
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="py-16">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center mb-12 text-neutral">Key Features</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Feature 1 -->
+                    <div class="shadow-lg rounded-lg overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1564583138697-34f7b7488f94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTYzMTZ8MHwxfHNlYXJjaHwyfHxGaW5hbmNlJTIwbXklMjBhcHB8ZW58MXwwfHx8MTc1NjIzOTEyMHww&ixlib=rb-4.1.0&q=80&w=1080" alt="Expense Tracking" class="w-full h-64 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold mb-2 text-neutral">Expense Tracking</h3>
+                            <p class="text-gray-600 mb-4">Easily track your spending habits and identify areas where you can save money.
+                            </p>
+                            <ul class="list-disc list-inside text-gray-600">
+                                <li>Categorize your expenses</li>
+                                <li>View spending reports</li>
+                                <li>Set spending limits</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Feature 2 -->
+                    <div class="shadow-lg rounded-lg overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1556745757-8d76bdb6984b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTYzMTZ8MXwxfHNlYXJjaHwxfHxidXNpbmVzc3xlbnwxfDB8fHwxNzU2MjM5MTIxfDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Budgeting Tools" class="w-full h-64 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold mb-2 text-neutral">Budgeting Tools</h3>
+                            <p class="text-gray-600 mb-4">Create personalized budgets to help you stay on track and achieve your financial
+                                goals.</p>
+                            <ul class="list-disc list-inside text-gray-600">
+                                <li>Set monthly budgets</li>
+                                <li>Track your progress</li>
+                                <li>Get notified when you're over budget</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Feature 3 -->
+                    <div class="shadow-lg rounded-lg overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1664575602276-acd073f104c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTYzMTZ8MHwxfHNlYXJjaHwyfHxidXNpbmVzc3xlbnwxfDB8fHwxNzU2MjM5MTIxfDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Financial Education" class="w-full h-64 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold mb-2 text-neutral">Financial Education</h3>
+                            <p class="text-gray-600 mb-4">Learn essential financial skills and make informed decisions about your money.</p>
+                            <ul class="list-disc list-inside text-gray-600">
+                                <li>Access articles and guides</li>
+                                <li>Take quizzes and assessments</li>
+                                <li>Improve your financial literacy</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefits Section -->
+        <section class="bg-primary py-16 text-white">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl font-bold mb-8">Why Choose Finance My App?</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div>
+                        <i class="fas fa-chart-line fa-3x mb-4"></i>
+                        <h3 class="text-xl font-semibold mb-2">Improved Financial Awareness</h3>
+                        <p>Gain a clear understanding of your spending habits and make smarter financial choices.</p>
+                    </div>
+                    <div>
+                        <i class="fas fa-piggy-bank fa-3x mb-4"></i>
+                        <h3 class="text-xl font-semibold mb-2">Save Money</h3>
+                        <p>Identify areas where you can cut back on expenses and save more money for your future.</p>
+                    </div>
+                    <div>
+                        <i class="fas fa-graduation-cap fa-3x mb-4"></i>
+                        <h3 class="text-xl font-semibold mb-2">Financial Literacy</h3>
+                        <p>Develop essential financial skills that will benefit you throughout your life.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Use Case Cards -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center mb-12 text-neutral">How Finance My App Helps Students</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-white shadow-lg rounded-lg p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-neutral">Managing Tuition and Fees</h3>
+                        <p class="text-gray-600 mb-4">Finance My App helps you budget for tuition, fees, and other educational expenses.</p>
+                        <ul class="list-disc list-inside text-gray-600">
+                            <li>Track tuition payments</li>
+                            <li>Set savings goals for future semesters</li>
+                            <li>Explore financial aid options</li>
+                        </ul>
+                    </div>
+                    <div class="bg-white shadow-lg rounded-lg p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-neutral">Controlling Living Expenses</h3>
+                        <p class="text-gray-600 mb-4">Keep your living expenses in check with our budgeting and expense tracking tools.</p>
+                        <ul class="list-disc list-inside text-gray-600">
+                            <li>Create a budget for rent, utilities, and groceries</li>
+                            <li>Monitor your spending in real-time</li>
+                            <li>Find ways to save on everyday expenses</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Slider (Static HTML) -->
+        <section class="bg-gray-100 py-16">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center mb-12 text-neutral">What Students Are Saying</h2>
+                <div class="max-w-3xl mx-auto">
+                    <div class="testimonial">
+                        <p class="text-lg italic text-gray-700 mb-4">"Finance My App has completely transformed the way I manage my money. I
+                            now have a clear understanding of where my money is going, and I'm saving more than ever before."</p>
+                        <p class="font-semibold text-gray-800">- Jane Doe, University Student</p>
+                    </div>
+                    <!-- Add more testimonials here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Accordion -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center mb-12 text-neutral">Frequently Asked Questions</h2>
+                <div class="max-w-3xl mx-auto">
+                    <div class="accordion-item mb-4">
+                        <button class="accordion-header bg-white shadow-md rounded-lg p-4 w-full text-left font-semibold text-neutral">
+                            Is Finance My App free to use?
+                        </button>
+                        <div class="accordion-content hidden p-4 bg-gray-50">
+                            Yes, Finance My App offers a free plan with basic features. We also have premium plans with
+                            advanced features for power users.
+                        </div>
+                    </div>
+                    <div class="accordion-item mb-4">
+                        <button class="accordion-header bg-white shadow-md rounded-lg p-4 w-full text-left font-semibold text-neutral">
+                            How secure is my financial data?
+                        </button>
+                        <div class="accordion-content hidden p-4 bg-gray-50">
+                            We use industry-leading security measures to protect your financial data. Your data is
+                            encrypted and stored securely on our servers.
+                        </div>
+                    </div>
+                    <!-- Add more FAQ items here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Final CTA Section -->
+        <section class="bg-secondary py-24 text-white text-center">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold mb-8">Ready to Take Control of Your Finances?</h2>
+                <p class="text-lg mb-12">Sign up for Finance My App today and start your journey towards financial success!</p>
+                <button class="bg-accent text-white px-8 py-3 rounded-lg hover:bg-orange-600 transition">Get Started
+                    Now</button>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-16">
+            <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div>
+                    <h2 class="text-3xl font-bold mb-6 text-neutral">About Finance My App</h2>
+                    <p class="text-gray-700 mb-4">Finance My App was created by students, for students. We understand the unique
+                        financial challenges faced by college students, and we're committed to providing you with the
+                        tools and resources you need to succeed.</p>
+                    <p class="text-gray-700">Our mission is to empower students to make informed financial decisions and achieve
+                        their goals.</p>
+                </div>
+                <div>
+                    <img src="https://images.unsplash.com/photo-1556740772-1a741367b93e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTYzMTZ8MXwxfHNlYXJjaHwxfHxidXNpbmVzc3xlbnwxfDB8fHwxNzU2MTgwNjU1fDA&ixlib=rb-4.1.0&q=80&w=1080" alt="About Finance My App"
+                        class="w-full h-64 object-cover rounded-lg">
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-16 bg-gray-100">
+            <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div>
+                    <h2 class="text-3xl font-bold mb-6 text-neutral">Contact Us</h2>
+                    <p class="text-gray-700 mb-4">Have questions or need assistance? Contact us today!</p>
+                    <form action="#" method="post">
+                        <div class="mb-4">
+                            <label for="name" class="block text-gray-700 text-sm font-bold mb-2">Name:</label>
+                            <input type="text" id="name" name="name"
+                                class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                        </div>
+                        <div class="mb-4">
+                            <label for="email" class="block text-gray-700 text-sm font-bold mb-2">Email:</label>
+                            <input type="email" id="email" name="email"
+                                class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                        </div>
+                        <div class="mb-6">
+                            <label for="message" class="block text-gray-700 text-sm font-bold mb-2">Message:</label>
+                            <textarea id="message" name="message" rows="4"
+                                class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"></textarea>
+                        </div>
+                        <button class="bg-primary text-white px-6 py-2 rounded-lg hover:bg-indigo-700 transition">Send
+                            Message</button>
+                    </form>
+                </div>
+                <div>
+                    <img src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTYzMTZ8MHwxfHNlYXJjaHwxfHxvZmZpY2V8ZW58MXwwfHx8MTc1NjE4MTAxNXww&ixlib=rb-4.1.0&q=80&w=1080" alt="Contact Us"
+                        class="w-full h-64 object-cover rounded-lg">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer role="contentinfo" class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+            <p>&copy; 2024 Finance My App. All rights reserved.</p>
+            <div class="mt-4 md:mt-0">
+                <a href="#" class="hover:text-gray-300 mx-2">Terms of Service</a>
+                <a href="#" class="hover:text-gray-300 mx-2">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
